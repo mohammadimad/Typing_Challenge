@@ -1,0 +1,11 @@
+C:\Users\Programmer-Amr\source\repos\TypingChallenge\TypingChallenge\bin\Debug\TypingChallenge.exe.config
+C:\Users\Programmer-Amr\source\repos\TypingChallenge\TypingChallenge\bin\Debug\TypingChallenge.exe
+C:\Users\Programmer-Amr\source\repos\TypingChallenge\TypingChallenge\bin\Debug\TypingChallenge.pdb
+C:\Users\Programmer-Amr\source\repos\TypingChallenge\TypingChallenge\obj\Debug\TypingChallenge.csproj.AssemblyReference.cache
+C:\Users\Programmer-Amr\source\repos\TypingChallenge\TypingChallenge\obj\Debug\TypingChallenge.Form1.resources
+C:\Users\Programmer-Amr\source\repos\TypingChallenge\TypingChallenge\obj\Debug\TypingChallenge.Properties.Resources.resources
+C:\Users\Programmer-Amr\source\repos\TypingChallenge\TypingChallenge\obj\Debug\TypingChallenge.csproj.GenerateResource.cache
+C:\Users\Programmer-Amr\source\repos\TypingChallenge\TypingChallenge\obj\Debug\TypingChallenge.csproj.CoreCompileInputs.cache
+C:\Users\Programmer-Amr\source\repos\TypingChallenge\TypingChallenge\obj\Debug\TypingChallenge.exe
+C:\Users\Programmer-Amr\source\repos\TypingChallenge\TypingChallenge\obj\Debug\TypingChallenge.pdb
+C:\Users\Programmer-Amr\source\repos\TypingChallenge\TypingChallenge\obj\Debug\TypingChallenge.TypingChallenge.resources

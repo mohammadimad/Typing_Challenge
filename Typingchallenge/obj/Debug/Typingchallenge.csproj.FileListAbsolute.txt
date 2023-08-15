@@ -1,0 +1,11 @@
+C:\Users\HP\source\repos\Typingchallenge\bin\Debug\Typingchallenge.exe.config
+C:\Users\HP\source\repos\Typingchallenge\bin\Debug\Typingchallenge.exe
+C:\Users\HP\source\repos\Typingchallenge\bin\Debug\Typingchallenge.pdb
+C:\Users\HP\source\repos\Typingchallenge\obj\Debug\Typingchallenge.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Typingchallenge\obj\Debug\Typingchallenge.Form1.resources
+C:\Users\HP\source\repos\Typingchallenge\obj\Debug\Typingchallenge.Properties.Resources.resources
+C:\Users\HP\source\repos\Typingchallenge\obj\Debug\Typingchallenge.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\Typingchallenge\obj\Debug\Typingchallenge.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Typingchallenge\obj\Debug\Typingchallenge.exe
+C:\Users\HP\source\repos\Typingchallenge\obj\Debug\Typingchallenge.pdb
+C:\Users\HP\source\repos\Typingchallenge\obj\Debug\Typingchallenge.frmProcessChallenge.resources
