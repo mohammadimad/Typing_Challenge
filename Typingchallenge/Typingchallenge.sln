@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typingchallenge", "Typingchallenge.csproj", "{FA2019F5-1E4D-4EC3-AA4D-5FE7E1C9C466}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "..\ClassLibrary1\ClassLibrary1.csproj", "{51EB23AA-7464-4B16-810A-5A33E3FA15E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FA2019F5-1E4D-4EC3-AA4D-5FE7E1C9C466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA2019F5-1E4D-4EC3-AA4D-5FE7E1C9C466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA2019F5-1E4D-4EC3-AA4D-5FE7E1C9C466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51EB23AA-7464-4B16-810A-5A33E3FA15E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51EB23AA-7464-4B16-810A-5A33E3FA15E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51EB23AA-7464-4B16-810A-5A33E3FA15E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51EB23AA-7464-4B16-810A-5A33E3FA15E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

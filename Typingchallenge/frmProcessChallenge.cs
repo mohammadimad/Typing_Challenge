@@ -7,86 +7,67 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using ClassLibrary1;
 namespace Typingchallenge
 {
     public partial class frmProcessChallenge : Form
     {
+        Class1 class1 = new Class1();
         public frmProcessChallenge(string QuestionLevel)
         {
             InitializeComponent();
-            _QuestionLevel = QuestionLevel;
+            class1._QuestionLevel = QuestionLevel;
         }
-        enum enQuestionLevel { Easy = 0, Medium = 1, Hard = 2 };
-        enQuestionLevel QuestionLevel;
-        string[] RandomStrings = new string[15];
-        string _QuestionLevel;
-        int Counter = 0;
+        
+       
         private void frmProcessChallenge_Load(object sender, EventArgs e)
         {
-            AssignArrayValues();
-            txtdefult.Text = RandomStrings[Rand.Next(0, 14)];
+            
+            class1.AssignArrayValues();   
+            txtdefult.Text = class1.RandomStrings[class1.Rand.Next(0, 14)];
             lblStatus.Text = "In Progress";
-            GetQuestionLevel();
+           
+            class1.GetQuestionLevel();
             ChangeCounterByDiffcultySettings();
             ChangeCounter();
         }
-        Random Rand = new Random();
-        void AssignArrayValues()
-        {
-            RandomStrings[0] = "Long Gaming Is Not Good For Your Health, Please Stop Gaming And Learn Some Programming.";
-            RandomStrings[1] = "Making Programs On Desktop,Web and Mobile Is Good Thing For Getting Money After Learning Programming Basics.";
-            RandomStrings[2] = "Can You Please Enter Your Name ? You Can't Because You Must Type This Words As It Is And Don't Change Any Word...";
-            RandomStrings[3] = ".Net platform Is a great platform built by Microsoft; for making Diffrent Apps Like Mobile,Desktop,Web and IOT.";
-            RandomStrings[4] = ".Net Xamarin Is a Platform for making cross-platform mobile apps using C# and it's a great Language for anything.";
-            RandomStrings[5] = "Elephants are very big,very cute Animals and you can see them in the jungle or the Zoo. just go see them...";
-            RandomStrings[6] = "Lions Are Very Dangerous,Big,Fast Animals and it's Name is the king of the jungle. stay aware of Lions becuase they can kill you.";
-            RandomStrings[7] = "Climbing Mountains is great sport , but you must learn it first and be good at it then you can climb mountains.";
-            RandomStrings[8] = "Riding Horses is great sport , but you must learn it first and be good at it then you can ride horses like western cowboys.";
-            RandomStrings[9] = "Playing push-ups can make you very strong sport, you can start by playing 5 push-ups daily then add to it one every day.";
-            RandomStrings[10] = "Just start learn programming with ProgrammingAdvices.Com because it's a very good site for learning programming.";
-            RandomStrings[11] = "You can start programming with a med level language like C++ to start Learn The Basics like Functional Programming,OOP";
-            RandomStrings[12] = "it's not good : starting programming with very modern language like python or javascript becuase they have large libraries.";
-            RandomStrings[13] = "Sports are very good for you'r health i suggest playing sports on Gym or in you'r home and don't be lasy.";
-            RandomStrings[14] = "You Can Start Learning Android Apps Development Using Kotlin or Java with Android Studio and MvvM.";
-        }
         void ChangeCounterByDiffcultySettings()
         {
-            switch (QuestionLevel)
+            switch (class1.QuestionLevel)
             {
-                case enQuestionLevel.Easy:
-                   
-                    Counter = 45;
+                case Class1.enQuestionLevel.Easy:
+
+                    class1.Counter = 45;
                     lblLevel.Text = "Easy";
                     break;
-                case enQuestionLevel.Medium:
-                   
-                    Counter = 35;
+                case Class1.enQuestionLevel.Medium:
+
+                    class1.Counter = 35;
                     lblLevel.Text = "Medium";
                     break;
-                case enQuestionLevel.Hard:
+                case Class1.enQuestionLevel.Hard:
                     lblLevel.Text = "Hard";
-                    Counter = 20;
+                    class1.Counter = 20;
                     break;
                 default:
                     lblLevel.Text = "Easy";
-                    Counter = 20;           
+                    class1.Counter = 20;           
                     break;
             }
         }
         void ChangeCounter()
         {
             ChangeCounterByDiffcultySettings();
-            lbltimer.Text = Counter.ToString();
+            lbltimer.Text = class1.Counter.ToString();
         }
         void ChangeTimer()
         {
-            Counter--;
-            lbltimer.Text = Counter.ToString();
+            class1.Counter--;
+            lbltimer.Text = class1.Counter.ToString();
         }
         void RestartChallenge()
         {
-            txtdefult.Text = RandomStrings[Rand.Next(0, 14)];
+            txtdefult.Text = class1.RandomStrings[class1.Rand.Next(0, 14)];
             txtwrite.Text = String.Empty;
             txtwrite.Enabled = false;
             lblStatus.Text = "In Progress";
@@ -118,15 +99,7 @@ namespace Typingchallenge
            
         }
 
-        void GetQuestionLevel()
-        {
-            if (_QuestionLevel == "Easy")
-                QuestionLevel = enQuestionLevel.Easy;
-            else if (_QuestionLevel == "Medium")
-                QuestionLevel = enQuestionLevel.Medium;
-            else
-                QuestionLevel = enQuestionLevel.Hard;
-        }
+        
        
         void StartChallenge()
         {
@@ -159,7 +132,7 @@ namespace Typingchallenge
 
         void CheckTimer()
         {
-            if (IsCounterEqualToZero())
+            if (class1.IsCounterEqualToZero())
             {
 
                 lbltimer.Text = "0";
@@ -170,10 +143,7 @@ namespace Typingchallenge
                 btnStart.Enabled = false;
             }
         }
-        bool IsCounterEqualToZero()
-        {
-            return Counter == 0;
-        }
+        
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
             Color color = Color.White;

@@ -9,3 +9,6 @@ C:\Users\HP\source\repos\Typingchallenge\obj\Debug\Typingchallenge.csproj.CoreCo
 C:\Users\HP\source\repos\Typingchallenge\obj\Debug\Typingchallenge.exe
 C:\Users\HP\source\repos\Typingchallenge\obj\Debug\Typingchallenge.pdb
 C:\Users\HP\source\repos\Typingchallenge\obj\Debug\Typingchallenge.frmProcessChallenge.resources
+C:\Users\HP\source\repos\Typingchallenge\bin\Debug\ClassLibrary1.dll
+C:\Users\HP\source\repos\Typingchallenge\bin\Debug\ClassLibrary1.pdb
+C:\Users\HP\source\repos\Typingchallenge\obj\Debug\Typingchallenge.csproj.CopyComplete
